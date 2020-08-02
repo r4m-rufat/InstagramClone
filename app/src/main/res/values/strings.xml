@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- FRAGMENT NAMES-->
+    <string name="app_name">Instagram</string>
+    <string name="_edit_profile_">Edit Profile</string>
+    <string name="_sign_out_">Sign Out</string>
+    <string name="profile_fragment">Profile</string>
+    <string name="return_to_fragment">return_to_fragment</string>
+    <string name="view_post_fragment">View Post</string>
+    <string name="view_comments_fragment">View Comment</string>
+    <string name="view_profile_fragment">View Profile</string>
+
+
+    <!-- DIALOG NAMES-->
+    <string name="_confirm_password_dialog_">ConfirmPasswordDialog</string>
+
+
+    <!-- DATABASE NAMES IN FIREBASE: ACTUALLY NODES -->
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_account_settings">user_account_settings</string>
+    <string name="dbname_photos">photos</string>
+    <string name="dbname_user_photos">user_photos</string>
+    <string name="dbname_following">following</string>
+    <string name="dbname_followers">followers</string>
+    <string name="field_username">username</string>
+    <string name="field_display_name">display_name</string>
+    <string name="field_email">email</string>
+    <string name="field_website">website</string>
+    <string name="field_description">description</string>
+    <string name="field_profile_image">profile_image</string>
+    <string name="field_phone">phone</string>
+    <string name="field_user_id">user_id</string>
+    <string name="field_caption">caption</string>
+    <string name="field_date">date</string>
+    <string name="field_photo_id">photo_id</string>
+    <string name="field_tags">tags</string>
+    <string name="field_image_path">image_path</string>
+    <string name="field_likes">likes</string>
+    <string name="field_comments">comments</string>
+
+    <!--   PHOTO TYPES -->
+    <string name="new_photo">photo</string>
+    <string name="new_profile_photo">profile_photo</string>
+
+    <!-- FOR INTENT -->
+    <string name="calling_activity">Calling Activity</string>
+    <string name="profile_activity">Profile Activity</string>
+    <string name="_selected_image_">selected_image</string>
+    <string name="_selected_bitmap_">selected_bitmap</string>
+    <string name="intent_user">intent_user</string>
+
+    <!-- BUNDLE NAMES -->
+    <string name="activity_number">activity_number</string>
+    <string name="bundle_photo">bundle_photo</string>
+    <string name="bundle_user_account_settings">bundle_user_account_settings</string>
+
+    <!-- ACTIVITY NAMES -->
+    <string name="search_activity">Search Activity</string>
+    <string name="home_activity">Home Activity</string>
+
+    <!-- Strings for Share Activity -->
+    <string name="gallery">GALLERY</string>
+    <string name="photo">PHOTO</string>
+    <string name="sharing_next">NEXT</string>
+    <string name="sharing_share">Share</string>
+
+</resources>

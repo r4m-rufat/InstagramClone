@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+
+                    <RelativeLayout
+                        android:id="@+id/rlayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/white">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/profile_photo_forHome"
+                            android:layout_marginTop="20dp"
+                            app:civ_border_color="@color/black"
+                            android:layout_centerVertical="true"
+                            app:civ_border_width="0.5dp"
+                            android:layout_marginLeft="20dp"/>
+
+                        <TextView
+                            android:id="@+id/username_forHome"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:text="rufet_nesirov01"
+                            android:layout_marginLeft="10dp"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/profile_photo_forHome"
+                            android:textColor="@color/black"/>
+
+<!--                        <ImageView-->
+<!--                            android:id="@+id/ic_settings_forPostView"-->
+<!--                            android:layout_width="30dp"-->
+<!--                            android:layout_height="30dp"-->
+<!--                            android:src="@drawable/ic_settings"-->
+<!--                            android:layout_alignParentRight="true"-->
+<!--                            android:layout_marginEnd="10dp"-->
+<!--                            android:layout_centerVertical="true"/>-->
+
+                    </RelativeLayout>
+
+                    <empty.folder.instagram.Utils.Square_Image_View
+                        android:id="@+id/center_postViewImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rlayout1"
+                        android:scaleType="centerCrop"/>
+
+                    <RelativeLayout
+                        android:id="@+id/rlayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/center_postViewImage"
+                        android:background="@color/white">
+
+                        <RelativeLayout
+                            android:id="@+id/heart_layout"
+                            android:layout_width="60dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/white">
+
+                            <ImageView
+                                android:id="@+id/icon_heart_fill_red"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_centerInParent="true"
+                                android:visibility="invisible"
+                                android:layout_marginLeft="15dp"
+                                android:src="@drawable/ic_red_heart"/>
+
+                            <ImageView
+                                android:id="@+id/icon_heart_outline"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="10dp"
+                                android:visibility="visible"
+                                android:src="@drawable/ic_heart_outline"/>
+
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/icon_comment_for_postView"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_toRightOf="@+id/heart_layout"
+                            android:layout_marginLeft="10dp"
+                            android:visibility="visible"
+                            android:src="@drawable/ic_comment"
+                            android:layout_centerVertical="true"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rlayout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rlayout2"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_marginBottom="50dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/image_likes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Liked by rufet_nesirov01,ulvi_nesirov99 and others"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"/>
+
+                        <TextView
+                            android:id="@+id/image_captions"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="rufet_nesirov Life #ulvi_nesirov99 #ilkin.aslanli"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="5dp"
+                            android:textSize="14sp"
+                            android:layout_below="@+id/image_likes"/>
+
+                        <TextView
+                            android:id="@+id/image_comments_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="View all 5 comments"
+                            android:textColor="@color/black"
+                            android:layout_below="@+id/image_captions"
+                            android:layout_marginTop="5dp"
+                            android:textSize="14sp"/>
+
+                        <TextView
+                            android:id="@+id/image_dateTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="54 MINUTES AGO"
+                            android:textColor="@color/gray"
+                            android:layout_below="@+id/image_comments_count"
+                            android:layout_marginTop="5dp"
+                            android:textSize="10sp"/>
+
+
+
+                    </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

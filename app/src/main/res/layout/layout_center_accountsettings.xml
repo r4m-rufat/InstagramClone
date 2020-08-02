@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_gray_border"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtAccountSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account Settings"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:background="@drawable/white_gray_border_bottom"/>
+
+        <ListView
+            android:id="@+id/txtSettingOptionsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txtAccountSetting"/>
+
+    </RelativeLayout>
+
+
+
+</merge>

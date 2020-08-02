@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">160438271473-4n4bv12l4gatqvqcg6vrhkp2d77u8bkt.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://instagram-808f6.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">160438271473</string>
+    <string name="google_api_key" translatable="false">AIzaSyCLAvvjesn6n55ELbsFp91HNL16_d1-0iA</string>
+    <string name="google_app_id" translatable="false">1:160438271473:android:cf429ef9a57624470a9850</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCLAvvjesn6n55ELbsFp91HNL16_d1-0iA</string>
+    <string name="google_storage_bucket" translatable="false">instagram-808f6.appspot.com</string>
+    <string name="project_id" translatable="false">instagram-808f6</string>
+</resources>
